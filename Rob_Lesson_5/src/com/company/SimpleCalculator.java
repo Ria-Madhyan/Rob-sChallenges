@@ -23,18 +23,18 @@ public class SimpleCalculator {
         System.out.println("Sum is "+ sum);
         return sum;
     }
-
     public void GetSubtractionResult(){
-        double diff =  this.getSecondNumber() - this.getFirstNumber();
+        double diff =  secondNumber - firstNumber;
         System.out.println("Difference is "+ diff);
     }
     public void GetMultiResult(){
-        double product = this.getFirstNumber() * this.getSecondNumber() ;
+        double product = firstNumber * secondNumber;
         System.out.println("Product is "+ product);
     }
+    //can also be done in the following way
     public void GetDivisionResult(){
-        double div = this.getSecondNumber()/this.getFirstNumber()  ;
-        System.out.println("Quotient is "+ div);
+        double quo = this.getSecondNumber()/this.getFirstNumber()  ;
+        System.out.println("Quotient is "+ quo);
     }
 
 
